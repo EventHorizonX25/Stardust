@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .5s ease-in-out;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.7;
+}
+.navbar1 a{
+    color: white;
+    position: relative;
+}
+.navbar1 .nav-items .nav-item a:hover{
+    color: white;
+    
+}
+.navbar1 .nav-items .nav-item a::before{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: all 0.7s ease-in-out;
+    
+}
+.navbar1 .nav-items .nav-item a:hover::before{
+    width: 100%;
+
+}
+.navbar a{
+    color: white;
+    position: relative;
+}
+.navbar .nav-items .nav-item a:hover{
+    color: white;
+    
+}
+.navbar .nav-items .nav-item a::before{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: all 0.7s ease-in-out;
+    
+}
+.navbar .nav-items .nav-item a:hover::before{
+    width: 100%;
+
+}
+.navbar a{
+    color: white;
+    position: relative;
+}
+.navbar .nav-items-1 .nav-item-1 a:hover{
+    color: white;
+    
+}
+.navbar .nav-items-1 .nav-item-1 a::before{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: all 0.7s ease-in-out;
+    
+}
+.navbar .nav-items-1 .nav-item-1 a:hover::before{
+    width: 100%;
+
+}
+.showcase{
+    background: #ddd;
+    padding: 3rem 0;
+}
+.universe-heading{
+    height: 135px;
+    background: white;
+    border-bottom: 1rem solid black;
+    box-shadow: 5px 5px 20px 0px #aaa;
+    font-size: 8rem;
+    text-align: center;
+    font-weight: 600;
+}
+.main-information{
+    background: white;
+    box-shadow: 5px 5px 20px 0px #aaa;
+    font-size: 1.6rem;
+    text-align: justify;
+    margin-top: 3rem;
+    padding: 0 5rem;
+}
+.md-style{
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    border-left: 1px solid black;
+    padding-left: 0.5rem;
+    letter-spacing: 0.1rem;
+
+}
+.container{
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+.lg-border{
+    border-bottom: 2px solid black;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+.lg-head{
+    font-size: 4rem;
+}
+.bg-dark{
+    background-color: #263238;
+}
+.logo, .navbar a{
+    color: white;
+}
+.logo, .navbar1 a{
+    color: white;
+}
+.logo{
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+}
+.navbar .logo{
+    float: left;
+}
+.navbar1 .logo{
+    float: left;
+}
+.navbar .nav-items{
+    float: right;
+    margin-top: 0.3rem;
+}
+.navbar1 .nav-items{
+    float: right;
+    margin-top: 0.3rem;
+}
+.navbar .nav-item{
+    display: inline-block;
+    padding: 0 1rem;
+    text-transform: uppercase;
+}
+.navbar1 .nav-item{
+    display: inline-block;
+    padding: 0 1rem;
+    text-transform: uppercase;
+}
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.navbar1::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.lg-heading{
+    font-size: 3rem;
+}
+.b1{
+    margin-top: 0rem;
+    font-size: 1.7rem;
+    font: white;
+}
+.b2{
+    margin-top: 0.7rem;
+    font-size: 1.7rem;
+}
+.text-blue{
+    color: #0272fa;
+}
+.text-light{
+    color: #f4f4f4;
+}
+.text-black{
+    color: #333333;
+}
+.text-grey{
+    color: #555555;
+}
+.navbar{
+    padding: 0rem;
+}
+.navbar1{
+    padding: 1rem;
+}
+a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+}
+ul li{
+    list-style: none;
+}
+table{
+    width: 100%;
+}
+.galaxy{
+    font-size: 6rem;
+    border-left: 0.5rem solid black;
+    border-right: 0.5rem solid black;
+
+}
+img{
+    max-width: 1200px;
+    width: 100%;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    display: inline-block;
+
+}
+.li li{
+    list-style-type: disc;
+}
+.t1{
+    border-collapse: collapse;
+}
+.v1{
+    max-width: 1200px;
+    width: 100%;
+}
+.ediv{
+    border: 3px solid black;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: darkgrey;
+    padding-bottom: 0.7rem;
+}
+.e1{
+    border: 2px solid black;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+.btn1{
+    background-color: white;
+    display: block;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+    color: blue;
+    font-weight: 600;
+}
+.btn1:hover{
+    background-color: lightgrey;
+
+}
+.navbar1{
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+@media (max-width:790px){
+    html{
+        font-size: 7px;
+        box-sizing: border-box;
+    }
+    .container{
+        max-width: 1200px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .universe-heading{
+        height: 42px;
+        background: white;
+        box-shadow: 5px 5px 20px 0px #aaa;
+        font-size: 25px;
+        text-align: center;
+        font-weight: 600;
+    }
+    table{
+        font-size: 7px;
+        width: 100%;
+    }
+    .lg-head{
+        font-size: 15px;
+    }
+    .showcase{
+        background: #ddd;
+        padding: 20px 0;
+    
+    }
+    .main-information{
+        padding: 10px;
+    }
+    .navbar .nav-items, .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+
+
+}

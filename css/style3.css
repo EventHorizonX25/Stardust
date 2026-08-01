@@ -1,0 +1,200 @@
+html{
+    font-size: 10px;
+    font-family:'Montserrat', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 10px;
+    font-size: 1.7rem;
+    background-color:rgb(168, 230, 255);
+}
+
+.heading{
+    background-color: rgb(67, 137, 179);
+}
+.information{
+    background-color: aliceblue;
+}
+
+h1.heading{
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 7px;
+    padding: 0.5em;
+    font-size: 5rem;
+}
+
+.company{
+    background-color:rgb(67, 137, 179);
+    border: 2px solid rgb(33, 33, 33);
+    border-radius: 7px;
+    padding: 0.7em;
+    font-size: 6rem;
+}
+
+.table{
+    background-color:rgb(67, 137, 179);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    padding: 1rem;
+}
+
+.border{
+    border:2px solid black;
+}
+
+img.universe{
+    width: 45%;
+    border: 0.2rem solid rgb(150, 150, 150);
+    padding: 0.3rem;
+}
+.table2{
+    border-bottom: 2px solid black;
+    font-size: 35px;
+}
+.table3{
+    border-bottom: 2px solid black;
+    font-size: 3.5rem;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.p{
+    text-align: justify;
+    font-size: 2rem;
+}
+dl{
+    font-size: 30px;
+    text-align: center;
+}
+img.sun{
+    height: 620px;
+}
+img.sun2{
+    height: 675px;
+}
+h1 div.container1{
+    font-size: 2.5rem;
+}
+h1 div.container2{
+    border-bottom: 0.2rem solid black;
+}
+div.box{
+    border-bottom: 0.2rem solid black;
+}
+h1.box3{
+    background-color:rgb(67, 137, 179);
+    border: 2px solid rgb(33, 33, 33);
+    border-radius: 7px;
+    padding: 0.7em;
+    font-size: 5rem;
+}
+/* nav div.main4{
+    border-radius: 1rem;
+    display: inline-block;
+    padding: 0.1rem  5.3%;
+    font-family:'Montserrat', sans-serif ;
+    position: fixed;
+    top: 5px;
+    left: 50px;
+}
+nav div.main5{
+    border-radius: 1rem;
+    display: inline-block;
+    padding: 0.1rem 10%;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+nav div.main6{
+    border-radius: 1rem;
+    display: inline-block;
+    padding: 0.1rem 11.13%;
+    font-family: 'Montserrat', sans-serif;
+    
+} */
+/* div.main4:hover{
+    background-color:rgb(97, 194, 255);
+}
+div.main5:hover{
+    background-color:rgb(97, 194, 255) ;
+}
+div.main6:hover{
+    background-color:rgb(97, 194, 255) ;
+} */
+/* nav{
+    background-color:rgb(67, 137, 179) ;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+} */
+table.table4{
+    font-size: 1.7rem;
+    width: 100%;
+}
+a.box4:hover{
+    border-bottom: 0.1rem solid black;
+
+}
+div.div-col{
+    column-width: 27em;
+}
+div img{
+    width: 8rem;
+    margin-right: 0.5rem;
+    margin-left: 0.9rem;
+    border-radius: 0.3rem;
+    position: relative;
+    top: 4.5px;
+}
+div.heading3{
+    display: inline-block;
+    border-bottom: 0.1rem solid black;
+    padding-right: 75.23%;
+    background-color: lightslategray;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+div h3{
+    display: inline-block;
+    padding-right: 0.4rem;
+    position: relative;
+    top: 1px;
+}
+.nav div.main4{
+    display: inline-block;
+    padding: 0 12rem;
+}
+.nav div.main5{
+    display: inline-block;
+    padding: 0 14.5rem;
+}
+.nav div.main6{
+    display: inline-block;
+    padding: 0 17rem;
+}
+.nav div.main4:hover{
+    background-color:rgb(213, 213, 213);
+}
+.nav div.main5:hover{
+    background-color: rgb(213, 213, 213);
+}
+.nav div.main6:hover{
+    background-color: rgb(213, 213, 213);
+}
+.nav{
+    background-color: white;
+    margin: 0px;
+    position: fixed;
+    top: 90px;
+    left: 0;
+}
+p.size{
+    width: 53%;
+    margin-top: 0;
+    float: right;
+}

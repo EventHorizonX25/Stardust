@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .5s ease-in-out;
+}
+/* ####################### html element styling ####################### */
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url("../img/p1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation: animation 10s infinite ease-in-out;
+    animation-duration: 50s;
+}
+header nav .wrapper2 .box1{
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    color: white;
+    letter-spacing: 2px;
+}
+.wrapper{
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 12px;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+    transition: all 0.3s ease-in-out;
+}
+input:focus{
+    border-color: white;
+}
+.input-box input::placeholder{
+    color: white;
+    
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.btn:hover{
+    background: lightgrey;
+    transition: all 0.5s ease-in-out;
+}
+.note{
+    position: absolute;
+    bottom: 15px;
+    color: rgba(255, 255, 255, 0.565);
+    text-align: center;
+    font-size: 12px;
+}
+@keyframes animation{
+    0%
+    {
+        background-image: url("../img/p2.jpg");
+    }
+    10%
+    {
+        background-image: url("../img/p17.jpg");
+    }
+    20%
+    {
+        background-image: url("../img/p3.jpg");
+    }
+    30%
+    {
+        background-image: url("../img/p4.jpg");
+    }
+    40%
+    {
+        background-image: url("../img/p6.jpg");
+    }
+    50%
+    {
+        background-image: url("../img/p1.jpg");
+    }
+    60%
+    {
+        background-image: url("../img/p11.jpg");
+    }
+    70%
+    {
+        background-image: url("../img/p9.jpg");
+    }
+    80%
+    {
+        background-image: url("../img/p10.jpg");
+    }
+    90%
+    {
+        background-image: url("../img/p12.jpg");
+    }
+    100%
+    {
+        background-image: url("../img/nebula.jpg");
+    }
+}
+@media (max-width:735px){
+    html{
+        font-size: 50%;
+    }
+    .wrapper{
+        width: 350px;
+        background-color: transparent;
+        border: 2px solid rgba(255, 255, 255, .2);
+        backdrop-filter: blur(15px);
+        color: white;
+        border-radius: 12px;
+        padding: 30px;
+        padding-bottom: 50px;
+    }
+    body{
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url("../img/p16.jpg");  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        animation: none;
+    }
+    header nav .wrapper2 .box1{
+        position: absolute;
+        top: 2rem;
+        left: 3rem;
+        color: white;
+        letter-spacing: 2px;
+    }
+    .note{
+        position: absolute;
+        bottom: 15px;
+        text-align: center;
+        font-size: 12px;
+    }
+}    

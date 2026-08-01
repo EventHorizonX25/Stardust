@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .5s ease-in-out;
+}
+/* ####################### html element styling ####################### */
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.7;
+}
+.slidebar{
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: transparent;
+    background-color: rgba(211, 211, 211, 0.339);
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    backdrop-filter: blur(10px);
+    transition: all .5s ease;
+    z-index: 1111;
+}
+.slidebar ul .slider1{
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 15px;
+    color: rgb(255, 60, 60);
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    padding-top: 8px;
+    transition: .4s;
+    letter-spacing: 0;
+}
+ul li:hover .slider1{
+    padding-left: 50px;
+
+}
+.slidebar header{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: rgba(128, 128, 128, 0.479);
+    user-select: none;
+}
+.slidebar ul .slider{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+    font-size: 15px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    padding-top: 8px;
+    transition: .4s;
+}
+ul li:hover .slider{
+    padding-left: 50px;
+
+}
+#check{
+    display: none;
+}
+label #btn11, label #cancel{
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+label #btn11{
+    left: 40px;
+    top: 25px;
+    font-size: 29px;
+    color: white;
+    transition: all .5s;
+}
+label #cancel{
+    position: fixed;
+    z-index: 11111;
+    left: -195px;
+    top: 21px;
+    font-size: 25px;
+    color: white;
+    transition: all .5s ease;
+}
+#check:checked ~ .header .slidebar{
+    left: 0;
+}
+#check:checked ~ label #btn11{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #cancel{
+    left: 210px;
+}
+@media (max-width:735px){
+    label #btn11{
+        left: 15px;
+        top: 18px;
+        font-size: 25px;
+        color: white;
+        transition: all .5s;
+    }
+    .slidebar{
+        position: fixed;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        background-color:rgba(0, 0, 0, 0.647);
+        transition: all .5s ease;
+        backdrop-filter: blur(10px);
+        z-index: 111;
+    }
+    #check:checked ~ label #cancel{
+        left: 40px;
+    }
+    
+    
+}
