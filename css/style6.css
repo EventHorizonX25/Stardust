@@ -80,7 +80,7 @@ label #btn11, label #cancel{
     cursor: pointer;
 }
 label #btn11{
-    left: 40px;
+    left: 25px;
     top: 25px;
     font-size: 29px;
     color: white;
@@ -106,13 +106,69 @@ label #cancel{
 #check:checked ~ label #cancel{
     left: 210px;
 }
+.header-content h1 .M3{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+    }
+.K2{
+    visibility: visible;
+}
+.K1{
+    visibility: hidden;
+}
+
 @media (max-width:735px){
     label #btn11{
-        left: 15px;
-        top: 18px;
         font-size: 25px;
         color: white;
         transition: all .5s;
+        top: 7%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid white;
+        border-radius: 3px;
+        padding: 5px 160px;
+        
+    }
+    
+    .header-content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    LINE-HEIGHT: 2rem;
+    }
+    .header-content h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4rem;
+    }
+    .header-content h1 .M3{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4.2rem;
+    }
+    .M2{
+        line-height: 1.1rem;
+    }
+    .header-content p{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    width: 400px;
+    }
+    .header-content .lg-heading{
+        width: 100%;
+    }
+    .header{
+    position: relative;
+    height: 98vh;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('../img/Earth\ for\ mobile.jfif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     }
     .slidebar{
         position: fixed;
@@ -127,6 +183,86 @@ label #cancel{
     }
     #check:checked ~ label #cancel{
         left: 40px;
+    }
+    .K1{
+        visibility: visible;
+    }
+    .K2{
+        visibility: hidden;
+    }
+    .K3{
+        visibility: hidden;
+    }
+    .logo{
+        font-size: 1.7rem;
+        margin-top: 1.2rem;
+    }
+}
+@media (max-width:670px){
+    label #btn11{
+        left: 40px;
+        top: 40px;
+        font-size: 15px;
+        color: white;
+        transition: all .5s;
+        top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0px solid white;
+        border-radius: 25px;
+        padding: 2px 140px;
+        background-color: rgba(184, 184, 184, 0.637);
+        background-color: blur(10px);
+        font-style: bold;
+    }
+    .header{
+    position: relative;
+    height: 98vh;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('../img/Earth\ for\ mobile.jfif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .slidebar{
+        position: fixed;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        background-color:rgba(0, 0, 0, 0.647);
+        transition: all .5s ease;
+        backdrop-filter: blur(10px);
+        z-index: 111;
+    }
+    #check:checked ~ label #cancel{
+        left: 40px;
+    }
+    .header-content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    LINE-HEIGHT: 3.2rem;
+    }
+    .header-content h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+    }
+    .header-content h1 .M3{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4rem;
+    }
+    .M2{
+        line-height: 1.1rem;
+    }
+    .header-content p{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    width: 300px;
     }
     
     

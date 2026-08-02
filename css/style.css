@@ -178,6 +178,7 @@ h1,h2,h3{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 1000px;
 }
 .header-content h1{
     text-transform: uppercase;
@@ -186,6 +187,12 @@ h1,h2,h3{
 .header-content p{
     text-transform: uppercase;
     font-size: 1.2rem;
+    width: 1000px;
+}
+.M3{
+    display: inline;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -454,7 +461,9 @@ h1,h2,h3{
     html{
         font-size: 50%;
     }
-
+    .logo{
+        margin-top: 2rem;
+    }
     .navbar .nav-items{
         float: none;
         display: block;
