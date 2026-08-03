@@ -143,6 +143,22 @@ body{
 .navbar1 .logo{
     float: left;
 }
+.logo1, .navbar1 a{
+    color: white;
+}
+.logo1, .navbar a{
+    color: white;
+}
+.logo1{
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+}
+.navbar .logo1{
+    float: left;
+}
+.navbar1 .logo1{
+    float: left;
+}
 .navbar .nav-items{
     float: right;
     margin-top: 0.3rem;
@@ -153,12 +169,12 @@ body{
 }
 .navbar .nav-item{
     display: inline-block;
-    padding: 0 1rem;
+    padding: 0 0rem;
     text-transform: uppercase;
 }
 .navbar1 .nav-item{
     display: inline-block;
-    padding: 0 1rem;
+    padding: 0 0rem;
     text-transform: uppercase;
 }
 .navbar::after{
@@ -273,6 +289,17 @@ img{
     position: sticky;
     top: 0;
 }
+h4.logo1.lg-heading.b1{
+    margin-bottom: 0rem;
+    font-size: 1.7rem;
+    font: white;
+    margin-top: 0.5rem;
+    
+}
+h1 #X4{
+    margin-bottom: 0rem;
+
+}
 @media (max-width:790px){
     html{
         font-size: 7px;
@@ -312,7 +339,17 @@ img{
         width: 100%;
         text-align: center;
     }
-    
+    .navbar .nav-items, .navbar .logo1{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .b1{
+        margin: 0;
+        top: 30px;
+        left: 0;
+    }
 
 
 }

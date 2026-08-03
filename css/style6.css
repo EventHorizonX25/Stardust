@@ -117,19 +117,22 @@ label #cancel{
 .K1{
     visibility: hidden;
 }
-
+.X1{
+    visibility: hidden;
+}
 @media (max-width:735px){
     label #btn11{
         font-size: 25px;
         color: white;
         transition: all .5s;
-        top: 7%;
-        left: 50%;
         transform: translate(-50%, -50%);
         border: 1px solid white;
-        border-radius: 3px;
-        padding: 5px 160px;
-        
+    }
+    .fa-bars{
+        visibility: hidden;
+    }
+    .X1{
+        visibility: visible;
     }
     
     .header-content{
@@ -202,18 +205,20 @@ label #cancel{
     label #btn11{
         left: 40px;
         top: 40px;
-        font-size: 15px;
+        font-size: 12px;
         color: white;
         transition: all .5s;
-        top: 7%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 0px solid white;
-        border-radius: 25px;
-        padding: 2px 140px;
-        background-color: rgba(184, 184, 184, 0.637);
+        top: 113%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 0px solid white;
+        border-radius: 30px;
+        padding: 1px 20px;
+        background-color: white;
         background-color: blur(10px);
-        font-style: bold;
+        color: #0272fa;
+        font-style: normal;
+        font-weight: 500;
     }
     .header{
     position: relative;
@@ -264,6 +269,5 @@ label #cancel{
     font-size: 0.8rem;
     width: 300px;
     }
-    
     
 }

@@ -39,6 +39,10 @@ h1,h2,h3{
     letter-spacing: 0.10em;
     font-weight: 500;
 }
+h4{
+    letter-spacing: 0.10em;
+    font-weight: 500;
+}
 /* ######################## utility classes ########################## */
 
 .container{
@@ -120,6 +124,10 @@ h1,h2,h3{
 .header .navbar a{
     color: white;
 }
+.header .logo1,
+.header .navbar a{
+    color: white;
+}
 .header .navbar a{
     color: white;
     position: relative;
@@ -145,6 +153,9 @@ h1,h2,h3{
 }
 
 .header .navbar .logo{
+    float: left;
+}
+.header .navbar .logo1{
     float: left;
 }
 .header .navbar .nav-items{
@@ -464,6 +475,9 @@ h1,h2,h3{
     .logo{
         margin-top: 2rem;
     }
+    .logo1{
+        margin-top: 2rem;
+    }
     .navbar .nav-items{
         float: none;
         display: block;
@@ -477,7 +491,20 @@ h1,h2,h3{
         text-align: center;
 
     }
+    .navbar .logo1{
+        float: none;
+        display: inline;
+        width: 100%;
+        text-align: center;
+
+    }
     .navbar .nav-items-1, .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar .nav-items-1, .navbar .logo1{
         float: none;
         display: block;
         width: 100%;
@@ -512,6 +539,9 @@ h1,h2,h3{
         padding: 0;
     }
     .logo{
+        font-size: 1.37rem;
+    }
+    .logo1{
         font-size: 1.37rem;
     }
     .showcase{
