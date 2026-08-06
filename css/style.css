@@ -328,7 +328,7 @@ h4{
 }
 .animation3{
     animation-name: animation4;
-    animation-duration: 1.3s;
+    animation-duration: 1.5s;
     animation-iteration-count:1;
     animation-direction: normal ;
     animation-delay: 0.3s;
@@ -337,9 +337,43 @@ h4{
 @keyframes animation4{
     from{
         font-size: 0.5rem;
+        padding:0.5px 10px;
     }
     to{
-        font-size: 1.5rem;
+        font-size: 15px;
+        padding:7.5px 22.5px;
+    }
+}
+.animation3X2{
+    animation-name: animation4X2;
+    animation-duration: 1.5s;
+    animation-iteration-count:1;
+    animation-direction: normal ;
+    animation-delay: 0.3s;
+    transition: all 0.7s ease;
+}
+@keyframes animation4X2{
+    from{
+        top: 80%;
+    }
+    to{
+        top: 50%;
+    }
+}
+.animation3X{
+    animation-name: animation4X;
+    animation-duration: 1.5s;
+    animation-iteration-count:1;
+    animation-direction: normal ;
+    animation-delay: 0.3s;
+    transition: all 0.7s ease;
+}
+@keyframes animation4X{
+    from{
+        font-size: 0.5rem;
+    }
+    to{
+        font-size: 12px;
     }
 
 
@@ -361,7 +395,7 @@ h4{
     }
     to{
         font-size: 29px;
-        left: 40px;
+        left: 25px;
         rotate: 180deg;
     }
 
@@ -601,8 +635,42 @@ h4{
     .animation4{
         animation: none;
     }
-    
-    
+    .animation3{
+    animation-name: animation4;
+    animation-duration: 1.5s;
+    animation-iteration-count:1;
+    animation-direction: normal ;
+    animation-delay: 0.3s;
+    transition: all 0.7s ease;
+}
+    @keyframes animation4{
+        from{
+            font-size: 0.5rem;
+            padding:0.5px 10px;
+        }
+        to{
+            font-size: 13px;
+            padding:6.5px 19.5px;
+        }
+    }
+    .animation3X{
+        animation-name: animation4X;
+        animation-duration: 1.5s;
+        animation-iteration-count:1;
+        animation-direction: normal ;
+        animation-delay: 0.3s;
+        transition: all 0.7s ease;
+    }
+    @keyframes animation4X{
+        from{
+            font-size: 0.5rem;
+            padding:0.5px 5px;
+        }
+        to{
+            font-size: 12px;
+            padding:1px 20px;
+        }
+    }
 }
 @media (orientation: landscape) and (max-height:500px) {
     .header{
